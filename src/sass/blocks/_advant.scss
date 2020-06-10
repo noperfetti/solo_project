@@ -1,0 +1,30 @@
+.advant {
+    min-height: 475px;
+    background-color: #f6f6f6;
+    padding: 65px 0 82px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    &__item {
+        width: 250px;
+        text-align: center;
+    }
+    &__item-title {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__item-descr {
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: 300;
+        a {
+            display: inline;
+            color: $main_color;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    }
+}

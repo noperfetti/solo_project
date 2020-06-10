@@ -1,0 +1,12 @@
+.consult {
+    min-height: 676px;
+    background: url('../images/form_bg.jpg') left (center/cover) no-repeat;
+    padding: 88px 0 85px 0;
+    &__form-title {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,96 @@
+.header {
+    min-height: 655px;
+    background: url('../images/top_bg.jpg') left (center/cover) no-repeat;
+    padding: 30px 0 86px 0;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 33%;
+    }
+    &__address {
+        text-align: center;
+        color: #ffffff;
+        width: 33%;
+    }
+    &__official {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    &__city {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__call {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 33%;
+    }
+    &__phone {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__wrapper {
+        margin-left: auto;
+        max-width: 505px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__title {
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 80px;
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin: 0;
+            margin-bottom: 22px;
+        }
+        p {
+            font-size: 24px;
+            font-weight: 500;
+            margin: 0; 
+        }
+    }
+    &__items-wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 65px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 68px;
+    }
+    &__item {
+        max-width: 105px;
+    }
+    &__item-descr {
+        margin-top: 16px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 17px;
+        a {
+            color: #ffffff;
+            text-transform: uppercase; 
+        }
+    }
+}

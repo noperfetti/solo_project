@@ -23,11 +23,11 @@
 
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/fonts/icomoon.eot?kktlfv');
-    src:  url('../fonts/fonts/icomoon.eot?kktlfv#iefix') format('embedded-opentype'),
-      url('../fonts/fonts/icomoon.ttf?kktlfv') format('truetype'),
-      url('../fonts/fonts/icomoon.woff?kktlfv') format('woff'),
-      url('../fonts/fonts/icomoon.svg?kktlfv#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?kktlfv');
+    src:  url('../fonts/icomoon.eot?kktlfv#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?kktlfv') format('truetype'),
+      url('../fonts/icomoon.woff?kktlfv') format('woff'),
+      url('../fonts/icomoon.svg?kktlfv#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
